@@ -1,0 +1,15 @@
+{
+  "name": "addition",
+  "collaborators": [
+    "mohini.salunkhe"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "addition_bg.wasm",
+    "addition.js",
+    "addition.d.ts"
+  ],
+  "module": "addition.js",
+  "types": "addition.d.ts",
+  "sideEffects": false
+}

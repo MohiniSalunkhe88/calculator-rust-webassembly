@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rust Calculator</title>
+    <style>	 
+      #rust-calculate{
+        margin-top: 10%;
+        margin-left: 30%;
+      }
+      #rstitle{
+        /* text-align: center; */
+        color: rgb(9, 44, 44);
+      }
+      #answerDisplay{
+        width: 390px;
+        height: 30px;
+        border: 1px solid rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+		background-color:white;
+      }
+      .rsInput{
+        border-radius: 50px;
+        padding: 8px;
+        color: rgb(0, 0, 0);
+        border: 1px solid rgb(0, 0, 0);
+        outline: none;
+      }
+      #addBtn{
+        outline: none;
+        background-color: rgb(71, 107, 107);
+        padding: 8px;
+        border: 1px solid rgb(71, 107, 107);
+        width: 120px;
+        border-radius: 50px;
+        color: #ffffff;
+        margin-left: 2%;
+      }
+	  #subBtn{
+        outline: none;
+        background-color: rgb(71, 107, 107);
+        padding: 8px;
+        border: 1px solid rgb(71, 107, 107);
+        width: 120px;
+        border-radius: 50px;
+        color: #ffffff;
+        margin-left: 2%;
+      }
+	  #mulBtn{
+        outline: none;
+        background-color: rgb(71, 107, 107);
+        padding: 8px;
+        border: 1px solid rgb(71, 107, 107);
+        width: 120px;
+        border-radius: 50px;
+        color: #ffffff;
+        margin-left: 2%;
+      }
+	  #divBtn{
+        outline: none;
+        background-color: rgb(71, 107, 107);
+        padding: 8px;
+        border: 1px solid rgb(71, 107, 107);
+        width: 120px;
+        border-radius: 50px;
+        color: #ffffff;
+        margin-left: 2%;
+      }
+	  #moduloBtn{
+        outline: none;
+        background-color: rgb(71, 107, 107);
+        padding: 8px;
+        border: 1px solid rgb(71, 107, 107);
+        width: 120px;
+        border-radius: 50px;
+        color: #ffffff;
+        margin-left: 2%;
+      }
+	  #clr{
+        outline: none;
+        background-color: rgb(71, 107, 107);
+        padding: 8px;
+        border: 1px solid rgb(71, 107, 107);
+        width: 120px;
+        border-radius: 50px;
+        color: #ffffff;
+        margin-left: 2%;
+      }
+	  
+    </style>
+  </head>
+  <Body background="https://previews.123rf.com/images/lisala/lisala1607/lisala160700101/60142046-abstract-background-with-transparent-group-of-numbers.jpg">
+  <body>
+    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+    <section id="rust-calculate">
+      <h1 id="rstitle">RUST CALCULATOR</h1>
+	  
+      <p id="answerDisplay"></p>
+      <input type="number" class="rsInput" id="firstValue">&nbsp&nbsp&nbsp; 
+      <input type="number" class="rsInput" id="secondValue"></br>
+      </br><button id="addBtn">ADD</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp; 
+	  <button id="subBtn">SUB</button></br></br>
+	  <button id="mulBtn">MUL</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+	  <button id="divBtn">DIV</button></br></br>
+	  <button id="moduloBtn">MOD</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+	  <input type ="button" id="clr" value="CLR"></button>
+    </section>
+    <script src="./bootstrap.js"></script>
+  </body>
+</html>
